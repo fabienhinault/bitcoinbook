@@ -256,7 +256,7 @@ rpcpassword=2XA4DuKNCbtZXsBQRRNDEwEY2nM6M4H9Tx5dFjoAVVbK
 
 While you're editing this configuration file, you might want to set a few other options, such as +txindex+ (see <<txindex>>). For a full listing of the available options, type +bitcoind --help+.
 
-Now, run the Bitcoin Core client. The first time you run it, it will rebuild the bitcoin blockchain by downloading all the blocks. This is a multigigabyte file and will take an average of two days to download in full. You can shorten the((("blockchains","downloading with bittorrent clients"))) blockchain initialization time by downloading a partial copy of the blockchain using a BitTorrent client from http://bit.ly/1qkLNyh[SourceForge]. 
+Now, run the Bitcoin Core client. The first time you run it, it will rebuild the bitcoin blockchain by downloading all the blocks, which totalize 20 GB to download. It can spend several hours even with a good network link.
 
 Run bitcoind in the background with the option +-daemon+:(((range="endofrange", startref="ix_ch03-asciidoc3")))
 
