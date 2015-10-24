@@ -263,22 +263,7 @@ Run bitcoind in the background with the option +-daemon+:(((range="endofrange", 
 ----
 $ bitcoind -daemon
 
-Bitcoin version v0.9.0rc1-beta (2014-01-31 09:30:15 +0100)
-Using OpenSSL version OpenSSL 1.0.1c 10 May 2012
-Default data directory /home/bitcoin/.bitcoin
-Using data directory /bitcoin/
-Using at most 4 connections (1024 file descriptors available)
-init message: Verifying wallet...
-dbenv.open LogDir=/bitcoin/database ErrorFile=/bitcoin/db.log
-Bound to [::]:8333
-Bound to 0.0.0.0:8333
-init message: Loading block index...
-Opening LevelDB in /bitcoin/blocks/index
-Opened LevelDB successfully
-Opening LevelDB in /bitcoin/chainstate
-Opened LevelDB successfully
-
-[... more startup messages ...]
+Bitcoin server starting
 
 ----
 
