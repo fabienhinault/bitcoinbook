@@ -612,7 +612,7 @@ image::images/msbt_0408.png["non-deterministic wallet"]
 
 Mnemonic codes are defined in((("BIP0039"))) Bitcoin Improvement Proposal 39 (see <<bip0039>>), currently in Draft status. Note that BIP0039 is a draft proposal and not a standard. Specifically, there is a different standard, with a different set of words, used by the((("Electrum wallet")))((("mnemonic code words","Electrum wallet and"))) Electrum wallet and predating BIP0039. BIP0039 is used by the((("mnemonic code words","Trezor wallet and")))((("Trezor wallet"))) Trezor wallet and a few other wallets but is incompatible with Electrum's implementation. 
     
-BIP0039 defines the creation of a mnemonic code and seed as a follows:
+BIP0039 defines the creation of a mnemonic code and seed as follows:
 
 1. Create a random sequence (entropy) of 128 to 256 bits.
 2. Create a checksum of the random sequence by taking the first few bits of its SHA256 hash.
