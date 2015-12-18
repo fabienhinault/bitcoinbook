@@ -512,7 +512,7 @@ In P2SH transactions, the locking script that is replaced by a hash is referred 
 |=======
 | Redeem Script | 2 PubKey1 PubKey2 PubKey3 PubKey4 PubKey5 5 OP_CHECKMULTISIG
 | Locking Script | OP_HASH160 <20-byte hash of redeem script> OP_EQUAL
-| Unlocking Script | Sig1 Sig2 redeem script 
+| Unlocking Script | Sig1 Sig2 <redeem script> 
 |=======
 
 As you can see from the tables, with P2SH the complex script that details the conditions for spending the output (redeem script) is not presented in the locking script. Instead, only a hash of it is in the locking script and the redeem script itself is presented later, as part of the unlocking script when the output is spent. This shifts the burden in fees and complexity from the sender to the recipient (spender) of the transaction. 
